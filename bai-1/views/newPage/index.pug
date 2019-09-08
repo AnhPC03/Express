@@ -1,0 +1,11 @@
+h3 Hello to a new page from the root page
+form(action="/newPage/search" method="GET") 
+	input#input(type="search" name="q" autofocus placeholder="Enter your query") 
+	button Search
+
+|
+a(href="/newPage/create" style="text-decoration:none") Create new user
+
+ul 
+	each user in users
+		li= user.name + ' : ' + user.age + ' year olds.'

@@ -17,7 +17,8 @@ var users = [
 			{ name : 'Anh', age : 20},
 			{ name : 'Dai Boss', age : 18},
 			{ name : 'Abc', age : 17},
-			{ name : 'Def', age : 15}
+			{ name : 'Def', age : 15},
+			{ name : 'Ghk', age : 25}
 		]
 app.get('/newPage', (req, res) => {
 	res.render('newPage/index.pug', {

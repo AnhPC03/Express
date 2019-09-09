@@ -28,7 +28,7 @@ app.get('/newPage', (req, res) => {
 
 app.get('/newPage/search', (req, res) => {
 	var q = req.query.q;
-	var result = users.filter((user) => {
+	var result = db.get("users").value().filter((user) => {
 		return user.name.toLowerCase().indexOf(q.toLowerCase()) !== -1;
 	});
 	res.render('newPage/index.pug', {

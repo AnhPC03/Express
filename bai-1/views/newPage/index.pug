@@ -8,4 +8,7 @@ a(href="/newPage/create" style="text-decoration:none") Create new user
 
 ul 
 	each user in users
-		li= user.name + ' : ' + user.age + ' year olds.'
+		li= user.name + ' : ' + user.age + ' year olds.' 
+		a(href="/users/" + user.id style="text-decoration:none") view
+
+

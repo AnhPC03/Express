@@ -1,11 +1,6 @@
 {
   "users": [
     {
-      "name": "ola",
-      "age": "23",
-      "id": "CAvHbb0"
-    },
-    {
       "name": "Anh",
       "age": "20",
       "id": "Y_QJCE-"
@@ -16,9 +11,9 @@
       "id": "QuwK-aR"
     },
     {
-      "name": "hello",
-      "age": "15",
-      "id": "UQylDdW"
+      "name": "ola",
+      "age": "23",
+      "id": "CAvHbb0"
     }
   ]
 }
